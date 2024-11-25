@@ -2,6 +2,7 @@ body{
   background-color: dodgerblue;
 }
 
+
 #artOne{
   font-family: 'Courier New', Courier, monospace;
   border-color: hotpink;
@@ -17,11 +18,65 @@ body{
   border-width: 7px;
 }
 
+#schoolSection{
+  display: flex;
+}
+
 #artThree{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-color: darkgreen;
   border-style: double;
   border-width: 10px;
+}
+
+#artFour{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color: blueviolet;
+  border-style: double;
+  border-width: 10px;
+}
+
+#notableInfoSection{
+  display: flex;
+}
+
+#artFive{
+  font-family: 'Times New Roman', Times, serif;
+  border-color: pink;
+  border-style: solid;
+  border-width: 7px;
+}
+
+#artSix{
+  font-family: 'Times New Roman', Times, serif;
+  border-color: darkmagenta;
+  border-style: solid;
+  border-width: 7px;
+}
+
+#hobbiesSection{
+  display: flex;
+}
+
+#artSeven{
+  font-family: 'Times New Roman', Times, serif;
+  border-color: wheat;
+  border-style: solid;
+  border-width: 7px;
+}
+
+#artEight{
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  border-style: solid;
+  border-width: 7px;
+}
+
+#artNine{
+  font-family: 'Times New Roman', Times, serif;
+  border-color: grey;
+  border-style: solid;
+  border-width: 7px;
 }
 
 article h2{
@@ -31,4 +86,5 @@ article h2{
 article{
   margin: 5px;
   padding: 4px;
+  flex-basis: 100%;
 }
